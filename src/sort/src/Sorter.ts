@@ -1,7 +1,10 @@
-import {NumberCollection} from "./NumberCollection";
-
+interface Sortable {
+    length: number;
+    compare(right: number, left: number): boolean;
+    swap(left: number, right:number):void;
+}
 export class Sorter {
-   constructor(public collection:NumberCollection) {
+   constructor(public collection:Sortable) {
 
    }
    sort():void {
