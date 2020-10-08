@@ -1,0 +1,13 @@
+# Project exclude paths
+/node_modules/
+/src/fristApp/index.js
+/src/map/src/Company.js
+/src/map/src/CustomMap.js
+/src/map/src/index.js
+/src/map/src/User.js
+/src/sort/node_modules/
+/src/Types/array.js
+/src/Types/classes.js
+/src/Types/functions.js
+/src/Types/interface.js
+/src/Types/type.js
